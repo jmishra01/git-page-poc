@@ -11,7 +11,7 @@ const config = {
     precompress: false,
     strict: true,
     paths: {
-      base: dev ? '' : '/git-page-poc',
+      base: process.env.NODE_ENV === 'production' ? '/git-page-poc': '/git-page-poc',
     },
 	}
 };
