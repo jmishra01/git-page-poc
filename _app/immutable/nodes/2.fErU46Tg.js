@@ -1,0 +1,1 @@
+import{F as e,P as t,f as n,h as r}from"../chunks/CvF7pqmf.js";import"../chunks/DEDqjojZ.js";t();function i(t){e(),n(t,r(`Svelte Kit Git-Page`))}export{i as component};
